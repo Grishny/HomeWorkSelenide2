@@ -2,6 +2,8 @@ HELP.md
 build/
 !**/src/main/**
 !**/src/test/**
+gradlew.bat
+gradlew
 
 ### IntelliJ IDEA ###
 .idea
@@ -11,9 +13,7 @@ build/
 
 ### Gradle ###
 .gradle
-gradlew
-gradlew.bat
-gradle/wrapper
+gradle/wrapper/
 
 ### Logs ###
 *.log
