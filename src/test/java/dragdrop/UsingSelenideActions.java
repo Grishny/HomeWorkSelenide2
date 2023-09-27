@@ -17,11 +17,10 @@ public class UsingSelenideActions {
         }
 
         @Test
-        void menuSelectionSolution(){
+        void menuSelectionSolutionTest(){
 
             //открыть страницу Drag&Drop
             open("/drag_and_drop");
-            sleep(2000);
             //перенести треугольник А на место треугольника В
             $("#column-a").$("header").shouldHave(text("A"));
             $("#column-b").$("header").shouldHave(text("B"));
@@ -29,7 +28,6 @@ public class UsingSelenideActions {
             //проверить, что треугольники поменялись местами
             $("#column-a").$("header").shouldHave(text("B"));
             $("#column-b").$("header").shouldHave(text("A"));
-            sleep(2000);
         }
     }
 

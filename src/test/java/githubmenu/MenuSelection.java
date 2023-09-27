@@ -1,8 +1,6 @@
 package githubmenu;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selectors;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -20,7 +18,7 @@ public class MenuSelection {
     }
 
     @Test
-    void menuSelectionSolution(){
+    void menuSelectionSolutionTest(){
 
         //открыть главную страницу GitHub
         open(Configuration.baseUrl);
